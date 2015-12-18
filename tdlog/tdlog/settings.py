@@ -38,10 +38,12 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'page_accueil', 
+    'projet', 
 )
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'page_accueil/templates'),
+    os.path.join(BASE_DIR, 'projet/templates'),
 )
 
 MIDDLEWARE_CLASSES = (
